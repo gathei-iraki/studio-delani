@@ -21,3 +21,98 @@
     font-weight: 900;
     font-size: x-large;
 }
+.Header{
+    text-align: center;
+    font-style: normal;
+    font-weight: 1100;
+    font-size: xx-large;
+}
+.contact{
+    background-image: url("../read.jpg");
+    background-size: cover;
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-weight: 900;
+
+}
+.name{  
+display: flexbox;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    background-color:grey;
+    opacity: 0.2;
+    border: 5px grey;
+  border-radius: 2px;
+  color: antiquewhite;
+  }
+
+  input::placeholder {
+    color:black;
+    font-weight: 900;
+
+  }
+
+.email{
+  display: flexbox;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  background-color:grey;
+  opacity: 0.2;
+  bborder: 5px grey;
+border-radius: 4px;
+}
+  
+  
+  .details input {
+    vertical-align: middle;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: cornsilk;
+  }
+  
+  .details button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .details button:hover {
+    background-color: royalblue;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .details{
+      flex-direction: column;
+      align-items: stretch;
+      width:100%;
+    }
+    .message{
+      vertical-align: middle;
+      margin: 8px 20px;
+      padding: 31px 25px;
+      width: 100%;
+    }
+    .transparent{
+      opacity: 0.1;
+      background-color: black;
+    }
+  .about{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    color:white;
+  }
+
+    textarea {
+      color:blue;
+      opacity: 0.5;
+  }
+  }
