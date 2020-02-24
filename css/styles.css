@@ -1,5 +1,5 @@
 .intro {
-    background-image: url("../waa.jpg");
+    background-image: url("../backgrounds/waa.jpg");
     background-size: cover;
     text-align: center;
     color: white;
@@ -8,7 +8,7 @@
 
 }  
 .services {
-    background-image: url("../services.jpg");
+    background-image: url("../backgrounds/services.jpg");
     background-size: cover;
     text-align: center;
     color:white;
@@ -28,7 +28,7 @@
     font-size: xx-large;
 }
 .contact{
-    background-image: url("../read.jpg");
+    background-image: url("../backgrounds/read.jpg");
     background-size: cover;
     text-align: center;
     color:white;
