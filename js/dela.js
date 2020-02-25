@@ -5,19 +5,20 @@ function getData() {
 
 
   }
+
   $().ready(function () {
     $("#pen-image").click(function () {
       $("#pen-whole").toggle();
       $("#pen-word").toggle();
     });
 
-    $("#develop").click(function () {
-      $("#develop-1").toggle();
-      $("#develop-2").toggle();
+    $("#check-image").click(function () {
+      $("#check-whole").toggle();
+      $("#check-word").toggle();
     });
 
-    $("#product").click(function () {
-      $("#product-1").toggle();
-      $("#product-2").toggle();
+    $("#list-image").click(function () {
+      $("#list-whole").toggle();
+      $("#list-word").toggle();
     });
   });
